@@ -21,10 +21,14 @@
 
                             
               <div class="card">
-                <img class="card-img-top" src="http://www.dailymotion.com/thumbnail/video/{{ video['id'] }}" alt="">
+                <img class="card-img-top" height="100" src="http://www.dailymotion.com/thumbnail/video/{{ video['id'] }}" alt="">
                 <div class="card-body">
-                  <h4 class="card-title">{{ video['channel'] }}</h4>
+                  <h6 class="card-title">{{ video['channel'] }}</h6>
                   <p class="card-text">{{ video['title'] }}</p>
+
+                  <a name="" id="" class="btn btn-primary" href="http://www.dailymotion.com/video/{{ video['id'] }}" role="button"> Ver video</a>
+
+
                 </div>
               </div>
               

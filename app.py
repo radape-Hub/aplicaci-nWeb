@@ -8,7 +8,7 @@ def index():
 
     datosOptenidos = requests.get('https://api.dailymotion.com/videos?channel=sport&limit=10')
     datosformatoJson= datosOptenidos.json()
-    print(datosformatoJson)
+    
 
 
     return render_template('index.html', datos=datosformatoJson['list'])
