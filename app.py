@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    datosOptenidos = requests.get('https://api.dailymotion.com/videos?channel=sport&limit=10')
+    datosOptenidos = requests.get('https://api.dailymotion.com/videos?channel=sport&limit=20')
     datosformatoJson= datosOptenidos.json()
     
 
