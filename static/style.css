@@ -1,0 +1,27 @@
+
+h2 {
+    color: #b2c49d;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    color: #b2bea3;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(4, 57, 82);
+}
+
+#descripcion{
+
+    resize: none;
+}

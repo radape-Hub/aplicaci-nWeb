@@ -13,7 +13,7 @@
 
   
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/home/arlu/Documentos/AplicacionWeb/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
@@ -51,7 +51,7 @@
         <h2>Formularios de lenguaje</h2>
         <form">
           <div class="mb-3">
-            <label for="nombre" class="form-label">Lenguaje/label>
+            <label for="nombre" class="form-label">Lenguaje</label>
             <input type="text" class="form-control" id="nombre" placeholder="Lenguaje">
           </div>
           <div class="mb-3">
