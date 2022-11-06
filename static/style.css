@@ -17,11 +17,33 @@ h1 {
     text-align: center;
 }
 
-body {
-    background-color: rgb(4, 57, 82);
+.centrado{
+    text-align: center;
+    vertical-align: middle;
 }
 
 #descripcion{
 
     resize: none;
+}
+
+.container{
+
+    background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body{
+
+    background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-white{
+
+    background-color: #ffffff;
 }
